@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+/* GLOBAL */
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -17,12 +17,19 @@ html {
   padding: 20px;
 }
 
-/* FOTO */
+/* FOTO PROFIL */
+.profile {
+  display: flex;
+  flex-direction: column; /* pastikan elemen stack vertikal */
+  align-items: center;    /* foto & teks di tengah */
+  margin-top: 20px;
+}
+
 .profile img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  object-fit: cover; /* ini penting */
+  object-fit: cover;
 }
 
 /* TEXT */
@@ -41,7 +48,7 @@ a {
 }
 
 a:hover {
-  color: #fbbf24; /* kuning soft (aksen) */
+  color: #fbbf24; /* kuning soft */
   transform: translateY(3px);
 }
 
@@ -68,49 +75,8 @@ a:hover {
 .contact {
   margin-top: 40px;
   padding: 15px;
-  background: #1f1f23; /* lebih gelap dikit */
-  border-radius: 10px;
-}
-
-/* NAVBAR */
-.navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
   background: #1f1f23;
-  padding: 15px 0;
-}
-
-/* MENU DI TENGAH */
-.navbar ul {
-  list-style: none;
-  display: flex;
-  justify-content: center; /* INI YANG BIKIN KE TENGAH */
-  gap: 30px;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar a {
-  color: #a1a1aa;
-  text-decoration: none;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.navbar a:hover {
-  color: #fbbf24;
-}
-
-.container,
-.about,
-.projects,
-.skills,
-.contact {
-  padding-top: 120px;
-}
-
-.contact {
+  border-radius: 10px;
   text-align: center;
 }
 
@@ -134,11 +100,51 @@ a:hover {
 .contact-item a:hover {
   color: #fbbf24;
 }
+
+/* NAVBAR */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #1f1f23;
+  padding: 15px 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center; /* menu di tengah */
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  color: #a1a1aa;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #fbbf24;
+}
+
+/* SECTION PADDING */
+.container,
+.about,
+.projects,
+.skills,
+.contact {
+  padding-top: 120px;
+}
+
+/* MATKUL */
 .matkul {
   font-size: 14px;
   color: #888;
   margin-top: 5px;
-=======
+}
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -286,5 +292,4 @@ a:hover {
   font-size: 14px;
   color: #888;
   margin-top: 5px;
->>>>>>> e333fdda4816708784cf1080672afd9d2ab1819c
 }
