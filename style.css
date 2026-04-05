@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -137,4 +138,153 @@ a:hover {
   font-size: 14px;
   color: #888;
   margin-top: 5px;
+=======
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #18181b; /* hitam soft */
+  color: #e4e4e7; /* abu terang */
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* FOTO */
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover; /* ini penting */
+}
+
+/* TEXT */
+h1, h2, h3 {
+  color: #fafafa; /* putih soft */
+}
+
+/* LINK */
+a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #a1a1aa; /* abu medium */
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #fbbf24; /* kuning soft (aksen) */
+  transform: translateY(3px);
+}
+
+/* PROJECT */
+.projects {
+  margin-top: 40px;
+}
+
+.project-card {
+  background: #27272a; /* card abu gelap */
+  border-radius: 12px;
+  padding: 15px;
+  margin: 10px auto;
+  max-width: 500px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+/* CONTACT */
+.contact {
+  margin-top: 40px;
+  padding: 15px;
+  background: #1f1f23; /* lebih gelap dikit */
+  border-radius: 10px;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover; /* biar ga gepeng */
+  border-radius: 50%;
+  border: 3px solid #3f3f46;
+}
+
+/* NAVBAR */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #1f1f23;
+  padding: 15px 0;
+}
+
+/* MENU DI TENGAH */
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center; /* INI YANG BIKIN KE TENGAH */
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  color: #a1a1aa;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #fbbf24;
+}
+
+.container,
+.about,
+.projects,
+.skills,
+.contact {
+  padding-top: 120px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.contact-item span {
+  font-size: 20px;
+}
+
+.contact-item a {
+  color: #a1a1aa;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  color: #fbbf24;
+}
+.matkul {
+  font-size: 14px;
+  color: #888;
+  margin-top: 5px;
+>>>>>>> e333fdda4816708784cf1080672afd9d2ab1819c
 }
